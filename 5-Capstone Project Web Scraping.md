@@ -162,3 +162,13 @@ if __name__ == "__main__":
     web_scrap()
 ```
 
+- Une fois que vous avez terminer votre script , exécuter cette commande dans le terminal :
+
+```
+python web-scraping.py
+```
+
+- Voici ce que vous allez avoir :
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/78825764/211056541-fb5a4b72-9302-4df5-a6b3-519ec46d1786.gif)
+
