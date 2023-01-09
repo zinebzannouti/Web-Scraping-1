@@ -129,7 +129,7 @@ import pandas as pd
 df_vin=pd.read_csv(`path_to-vin')
 vin=[]
 def web_scrap():
-    for i in df_vin['vin_11'][0:30]:
+    for i in df_vin['vin_11'][0:20]:
     
         driver = webdriver.Chrome(executable_path='chromedriver.exe_path')
         #get the website to our driver
