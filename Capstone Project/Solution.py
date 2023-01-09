@@ -7,7 +7,7 @@ import pandas as pd
 df_vin=pd.read_csv('C:/Users/User/Downloads/vin_11.csv')
 vin=[]
 def web_scrap():
-    for i in df_vin['vin_11'][0:30]:
+    for i in df_vin['vin_11'][0:20]:
         driver = webdriver.Chrome(executable_path='C:\Drivers\chromedriver_win32\chromedriver.exe')
         driver.get('https://www.autodna.com/')
         search= driver.find_element(By.CLASS_NAME,'vin-input')
